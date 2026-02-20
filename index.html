@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criação de Sites Profissionais</title>
+
+    <!-- Fonte moderna -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            min-height: 100vh;
+            background: linear-gradient(135deg, #0f172a, #1e293b, #0f172a);
+            background-size: 400% 400%;
+            animation: gradientMove 12s ease infinite;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        @keyframes gradientMove {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .container {
+            max-width: 900px;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(15px);
+            padding: 60px 40px;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+            text-align: center;
+            animation: fadeUp 1s ease forwards;
+        }
+
+        @keyframes fadeUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        h1 {
+            font-size: 42px;
+            margin-bottom: 20px;
+            background: linear-gradient(90deg, #22c55e, #3b82f6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        p {
+            font-size: 18px;
+            color: #cbd5e1;
+            margin-bottom: 40px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 15px 35px;
+            background: linear-gradient(90deg, #22c55e, #16a34a);
+            color: black;
+            font-weight: 600;
+            text-decoration: none;
+            border-radius: 50px;
+            transition: all 0.3s ease;
+            box-shadow: 0 8px 20px rgba(34,197,94,0.4);
+        }
+
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 25px rgba(34,197,94,0.6);
+        }
+
+        .benefits {
+            margin-top: 50px;
+            text-align: left;
+        }
+
+        .benefits h2 {
+            margin-bottom: 20px;
+        }
+
+        .benefits ul {
+            list-style: none;
+        }
+
+        .benefits li {
+            margin: 15px 0;
+            padding-left: 25px;
+            position: relative;
+            color: #cbd5e1;
+        }
+
+        .benefits li::before {
+            content: "✔";
+            position: absolute;
+            left: 0;
+            color: #22c55e;
+        }
+
+        footer {
+            margin-top: 60px;
+            font-size: 14px;
+            color: #94a3b8;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 30px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Seu negócio precisa aparecer no Google</h1>
+        <p>Eu crio sites profissionais rápidos, modernos e acessíveis para pequenos negócios.</p>
+
+        <a href="https://wa.me/SEUNUMERO" class="btn">Quero meu site profissional</a>
+
+        <div class="benefits">
+            <h2>O que você recebe:</h2>
+            <ul>
+                <li>Site profissional em até 5 dias</li>
+                <li>Totalmente adaptado para celular</li>
+                <li>Botão direto para WhatsApp</li>
+                <li>Mais credibilidade e autoridade</li>
+            </ul>
+        </div>
+
+        <footer>
+            © 2026 - João Victor | Desenvolvedor Web
+        </footer>
+    </div>
+
+</body>
+</html>
