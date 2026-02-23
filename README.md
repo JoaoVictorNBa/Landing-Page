@@ -34,7 +34,7 @@ O objetivo do projeto é demonstrar habilidades em desenvolvimento front-end e c
 O projeto está hospedado utilizando GitHub Pages.
 
 🔗 Acesse aqui:  
-(Coloque aqui o link do seu site quando publicar)
+https://joaovictornba.github.io/Landing-Page/
 
 ## Objetivo Profissional
 
